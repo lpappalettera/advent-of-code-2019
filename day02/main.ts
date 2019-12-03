@@ -1,7 +1,7 @@
 import getInput from '../lib/getInput'
 
 function run(noun: number, verb: number){
-    const input = getInput('../day02/input.txt').split(',').map(value => +value)
+    const input = getInput('../../day02/input.txt').split(',').map(value => +value)
 
     var finished = false
     var i = 0

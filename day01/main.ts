@@ -1,6 +1,6 @@
 import getInput from '../lib/getInput'
 
-const input = getInput('../day01/input.txt')
+const input = getInput('../../day01/input.txt')
 
 let fuel = (mass: number) => { return Math.floor(mass / 3) - 2 }
 
