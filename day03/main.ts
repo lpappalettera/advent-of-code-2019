@@ -35,7 +35,6 @@ const inputWires = getInput('../../day03/input.txt').split('\n')
 
 const line1 = getCoordinates(inputWires[0])
 const line2 = getCoordinates(inputWires[1])
-
 const crossings = line1.filter( (item1) => line2.some(item2 => item1.x == item2.x && item1.y == item2.y))
 
 //Output part 1
